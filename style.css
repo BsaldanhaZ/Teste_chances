@@ -20,3 +20,8 @@ fieldset{
 .calcular{
     margin-top: 1.5rem;
 }
+
+span{
+    color: black;
+    background-color: aliceblue;
+}

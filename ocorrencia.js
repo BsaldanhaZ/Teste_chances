@@ -4,12 +4,16 @@ function calcularChance(ocorrencias, possibilidades) {
   }
   
   document.addEventListener("DOMContentLoaded", function() {
+
+    const resultadoElement = document.getElementById('resultado');
     const button = document.querySelector("[name=submit]");
+
     button.onclick = function(){
       const ocorrencias = parseFloat(document.querySelector("#ocorrencias").value);
       const possibilidades = parseFloat(document.querySelector("#possibilidades").value);
       const chanceDeOcorrer = calcularChance(ocorrencias, possibilidades);
-      alert(`A chance de vencer é ${chanceDeOcorrer}`);
+      resultadoElement.textContent = chanceDeOcorrer;
+
     };
   });
   
