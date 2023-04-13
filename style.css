@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    
+}
+.banner{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.campoDigitar{
+    width: 25%;
+}
+
+fieldset{
+    
+    color: azure;
+}
+
+.calcular{
+    margin-top: 1.5rem;
+}
