@@ -3,9 +3,9 @@ function calcularChance(ocorrencias, possibilidades) {
     return chance.toFixed(2) + "%";
   }
   
-  const ocorrencias = parseInt(prompt("Com quantos resultados você ganha?"));;
-  const possibilidades = parseInt(prompt("Quantas possibilidades tem: Ex: vitória, derrota e empate:"));;
+  //const ocorrencias = parseInt(prompt("Com quantos resultados você ganha?"));;
+  //const possibilidades = parseInt(prompt("Quantas possibilidades tem: Ex: vitória, derrota e empate:"));;
   
   const chanceDeOcorrer = calcularChance(ocorrencias, possibilidades);
   
-  alert(`A chance de vencer é ${chanceDeOcorrer}`);
+  //alert(`A chance de vencer é ${chanceDeOcorrer}`);
