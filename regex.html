@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        const datas = ['2022-11-30', '2022-12-01', '2022-12-02'];
+
+        const datasFormatadas = datas.map(data => data.replace(/^(\d{4})-(\d{2})-(\d{2})$/, '$3/$2/$1'));
+
+        console.log(datasFormatadas); // Saída: ["30/11/2022", "01/12/2022", "02/12/2022"]
+        
+    </script>
+    
+</body>
+</html>
+
+
+
