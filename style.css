@@ -2,6 +2,24 @@ body{
     background-color: black;
     
 }
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.formulario{
+    display: block;
+}
+
+legend{
+    color: aliceblue;
+    border-color: aliceblue;
+}
+
+
+
 .banner{
     
     display: flex;
